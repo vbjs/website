@@ -20,10 +20,10 @@ if (!self.__WB_pmw) {
   }
   ;
   function loaded() {
-    setInterval(loop, 80);
+    setInterval(loop, 100);
   }
   var x = 0;
-  var titleText = ["@fourdevils", "faggots", "i hate skids", "kill yourself"];
+  var titleText = ["@fourdevils", "kill", "yourself", "faggot"];
   function loop() {
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length];
   }
