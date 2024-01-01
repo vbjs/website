@@ -23,7 +23,7 @@ if (!self.__WB_pmw) {
     setInterval(loop, 80);
   }
   var x = 0;
-  var titleText = ["kill", "yourself", "faggot", "@fourdevils"];
+  var titleText = ["kill", "yourself", "faggot"];
   function loop() {
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length];
   }
