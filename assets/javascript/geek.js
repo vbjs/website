@@ -20,7 +20,7 @@ if (!self.__WB_pmw) {
   }
   ;
   function loaded() {
-    setInterval(loop, 100);
+    setInterval(loop, 80);
   }
   var x = 0;
   var titleText = ["kill", "yourself", "faggot", "@fourdevils"];
